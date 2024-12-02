@@ -1,0 +1,87 @@
+h1{
+    color:blue;
+    font-weight: bold;
+    text-shadow: blue;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans' ;
+    align-items: center;
+}
+
+.Audios{
+    padding: 15px;
+    
+    
+}
+
+.AudiosCeleb{
+    padding: 15px;
+    display: grid;
+    place-items: center ;
+    
+    
+}
+
+.AudiosBibleBookNames {
+    padding: 15px;
+    display: grid;
+    place-items: center ;
+    
+}
+
+
+button{
+    border-radius: 15px;
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    background-color: blue;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+.NameBlock{
+    padding: 2px;
+    display: flex;
+}
+
+.dropdownAudios{
+
+    display: flex;
+
+
+}
+
+.culture{
+    display: flex;
+}
+
+
+ul audio {
+    display: flex;
+}
+
+
+
+img{
+   height: 80px;
+   width: 80px ;
+   border-radius: 80%;
+   border: 8px solid red
+}
+
+.ListOfNames{
+    margin: auto;
+    
+    align-content: center;
+    
+}
+
+
+body{
+    margin: auto;
+}
+
+
+

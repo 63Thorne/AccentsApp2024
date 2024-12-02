@@ -1,0 +1,67 @@
+h1{
+    color:blue;
+    font-weight: bold;
+    text-shadow: blue;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans' ;
+    align-items: center;
+}
+
+.AudiosZodiacSigns{
+    display: grid;
+    place-items: center ;
+   
+    padding: 15px;
+    
+}
+
+
+button{
+
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+
+.NameBlock{
+    padding: 2px;
+    display: flex;
+}
+
+.dropdownAudios{
+
+    display: flex;
+
+
+}
+
+.culture{
+    display: flex;
+}
+
+
+ul audio {
+    display: flex;
+}
+
+img{
+   height: 80px;
+   width: 80px ;
+   border-radius: 80%;
+   border: 8px solid red
+}
+
+.ListOfNames{
+
+
+}
+
+
+body{
+    align-items: center;
+}
+
