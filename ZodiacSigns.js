@@ -158,5 +158,145 @@ buttonZodiac12.addEventListener("click", (event) => {
     }
 });
 
+const buttonZodiac13 = document.getElementById("btnZodiac13");
+const audiosZodiac13 = document.getElementById("audiosZodiac13");
 
+audiosZodiac13.style.display ="none";
 
+buttonZodiac13.addEventListener("click", (event) => {
+    if(audiosZodiac13.style.display == "none"){
+        audiosZodiac13.style.display ="block";
+    } else {
+        audiosZodiac13.style.display ="none";
+    }
+});
+
+const buttonZodiac14 = document.getElementById("btnZodiac14");
+const audiosZodiac14 = document.getElementById("audiosZodiac14");
+
+audiosZodiac14.style.display ="none";
+
+buttonZodiac14.addEventListener("click", (event) => {
+    if(audiosZodiac14.style.display == "none"){
+        audiosZodiac14.style.display ="block";
+    } else {
+        audiosZodiac14.style.display ="none";
+    }
+});
+
+const buttonZodiac15 = document.getElementById("btnZodiac15");
+const audiosZodiac15 = document.getElementById("audiosZodiac15");
+
+audiosZodiac15.style.display ="none";
+
+buttonZodiac15.addEventListener("click", (event) => {
+    if(audiosZodiac15.style.display == "none"){
+        audiosZodiac15.style.display ="block";
+    } else {
+        audiosZodiac15.style.display ="none";
+    }
+});
+
+const buttonZodiac16 = document.getElementById("btnZodiac16");
+const audiosZodiac16 = document.getElementById("audiosZodiac16");
+
+audiosZodiac16.style.display ="none";
+
+buttonZodiac16.addEventListener("click", (event) => {
+    if(audiosZodiac16.style.display == "none"){
+        audiosZodiac16.style.display ="block";
+    } else {
+        audiosZodiac16.style.display ="none";
+    }
+});
+
+const buttonZodiac17 = document.getElementById("btnZodiac17");
+const audiosZodiac17 = document.getElementById("audiosZodiac17");
+
+audiosZodiac17.style.display ="none";
+
+buttonZodiac17.addEventListener("click", (event) => {
+    if(audiosZodiac17.style.display == "none"){
+        audiosZodiac17.style.display ="block";
+    } else {
+        audiosZodiac17.style.display ="none";
+    }
+});
+
+const buttonZodiac18 = document.getElementById("btnZodiac18");
+const audiosZodiac18 = document.getElementById("audiosZodiac18");
+
+audiosZodiac18.style.display ="none";
+
+buttonZodiac18.addEventListener("click", (event) => {
+    if(audiosZodiac18.style.display == "none"){
+        audiosZodiac18.style.display ="block";
+    } else {
+        audiosZodiac18.style.display ="none";
+    }
+});
+
+const buttonZodiac19 = document.getElementById("btnZodiac19");
+const audiosZodiac19 = document.getElementById("audiosZodiac19");
+
+audiosZodiac19.style.display ="none";
+
+buttonZodiac19.addEventListener("click", (event) => {
+    if(audiosZodiac19.style.display == "none"){
+        audiosZodiac19.style.display ="block";
+    } else {
+        audiosZodiac19.style.display ="none";
+    }
+});
+
+const buttonZodiac20 = document.getElementById("btnZodiac20");
+const audiosZodiac20 = document.getElementById("audiosZodiac20");
+
+audiosZodiac20.style.display ="none";
+
+buttonZodiac20.addEventListener("click", (event) => {
+    if(audiosZodiac20.style.display == "none"){
+        audiosZodiac20.style.display ="block";
+    } else {
+        audiosZodiac20.style.display ="none";
+    }
+});
+
+const buttonZodiac21 = document.getElementById("btnZodiac21");
+const audiosZodiac21 = document.getElementById("audiosZodiac21");
+
+audiosZodiac21.style.display ="none";
+
+buttonZodiac21.addEventListener("click", (event) => {
+    if(audiosZodiac21.style.display == "none"){
+        audiosZodiac21.style.display ="block";
+    } else {
+        audiosZodiac21.style.display ="none";
+    }
+});
+
+const buttonZodiac22 = document.getElementById("btnZodiac22");
+const audiosZodiac22 = document.getElementById("audiosZodiac22");
+
+audiosZodiac22.style.display ="none";
+
+buttonZodiac22.addEventListener("click", (event) => {
+    if(audiosZodiac22.style.display == "none"){
+        audiosZodiac22.style.display ="block";
+    } else {
+        audiosZodiac22.style.display ="none";
+    }
+});
+
+const buttonZodiac23 = document.getElementById("btnZodiac23");
+const audiosZodiac23 = document.getElementById("audiosZodiac23");
+
+audiosZodiac23.style.display ="none";
+
+buttonZodiac23.addEventListener("click", (event) => {
+    if(audiosZodiac23.style.display == "none"){
+        audiosZodiac23.style.display ="block";
+    } else {
+        audiosZodiac23.style.display ="none";
+    }
+});
