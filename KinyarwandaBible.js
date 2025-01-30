@@ -538,6 +538,8 @@ buttonKinyarwandabible38.addEventListener("click", (event) => {
     } else {
         audiosKinyarwandabible38.style.display ="none";
     }
+
+    
 });
 
 const buttonKinyarwandabible39 = document.getElementById("btnKinyarwandabible39");
@@ -912,8 +914,24 @@ buttonKinyarwandabible65.addEventListener("click", (event) => {
     } else {
         audiosKinyarwandabible65.style.display ="none";
     }
+
+   
 });
 
+const buttonKinyarwandabible66 = document.getElementById("btnKinyarwandabible66");
+const audiosKinyarwandabible66 = document.getElementById("audiosKinyarwandabible66");
+
+audiosKinyarwandabible66.style.display ="none";
+
+buttonKinyarwandabible66.addEventListener("click", (event) => {
+    if(audiosKinyarwandabible66.style.display == "none"){
+        audiosKinyarwandabible66.style.display ="block";
+    } else {
+        audiosKinyarwandabible66.style.display ="none";
+    }
+
+   
+});
 
 
 

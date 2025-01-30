@@ -300,3 +300,27 @@ buttonZodiac23.addEventListener("click", (event) => {
         audiosZodiac23.style.display ="none";
     }
 });
+const buttonZodiac24 = document.getElementById("btnZodiac24");
+const audiosZodiac24 = document.getElementById("audiosZodiac24");
+
+audiosZodiac24.style.display ="none";
+
+buttonZodiac24.addEventListener("click", (event) => {
+    if(audiosZodiac24.style.display == "none"){
+        audiosZodiac24.style.display ="block";
+    } else {
+        audiosZodiac24.style.display ="none";
+    }
+});
+const buttonZodiac25 = document.getElementById("btnZodiac25");
+const audiosZodiac25 = document.getElementById("audiosZodiac25");
+
+audiosZodiac25.style.display ="none";
+
+buttonZodiac25.addEventListener("click", (event) => {
+    if(audiosZodiac25.style.display == "none"){
+        audiosZodiac25.style.display ="block";
+    } else {
+        audiosZodiac25.style.display ="none";
+    }
+});
