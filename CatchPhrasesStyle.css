@@ -1,5 +1,5 @@
 h1{
-    color:blue;
+    color:white;
     font-weight: bold;
     text-shadow: blue;
     font-size: 45px;
@@ -8,7 +8,7 @@ h1{
 }
 
 body{
-  
+    background-image: url(Images/CelebImages/image\ background.jpeg);
 }
 
 .Audios{
@@ -47,6 +47,20 @@ button{
 
 }
 
+.NameBlockCorrect {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+
+} 
+
+.NameBlockCorrect audio{
+background-color: green;
+ 
+}
+
 #audiosZodiac2{
     display:inline-flex;
 }
@@ -67,12 +81,12 @@ button{
 }
 
 
-.celebImgBox{
+.celebIdmgBox{
     width: 20px ;
     height: 20px; ;
 }
 
-a{  padding: 15px;
+a{  pading: 15px;
     display: flex;
     display: grid;
     height: 25px;
@@ -104,6 +118,8 @@ iframe{
   
    
 }
+
+
 
 
 

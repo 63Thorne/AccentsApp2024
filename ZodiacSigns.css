@@ -1,11 +1,15 @@
 h1{
-    color:blue;
+    color:white;
     font-weight: bold;
     text-shadow: blue;
     font-size: 45px;
     text-align: center;
     font-family: 'Lucida Sans' ;
     align-items: center;
+}
+
+body{
+    background-image: url(Images/CelebImages/image\ background.jpeg);
 }
 
 .AudiosZodiacSigns{
