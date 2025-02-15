@@ -1,5 +1,5 @@
 h1{
-    color:blue;
+    color:white;
     font-weight: bold;
     text-shadow: blue;
     font-size: 45px;
@@ -81,6 +81,7 @@ img{
 
 body{
     margin: auto;
+    background-image: url(Images/CelebImages/image\ background.jpeg);
 }
 
 
