@@ -8,11 +8,13 @@ h1{
 }
 
 body{
+
+    
     background-image: url(Images/CelebImages/image\ background.jpeg);
 }
 
 .Audios{
-    padding: 15px;
+    
 
     
     margin: auto;
@@ -34,13 +36,28 @@ button{
     background-color: blue;
     color: antiquewhite;
     border-radius: 15px;
-    place-content: ce;
     margin: auto;
 }
 
 
+.Translation{
+    border-radius: 15px;
+    width: 80px;
+    height: 45px;   
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    padding-right: 0%;
+    
+
+}
+
+
+
 .NameBlock{
-    padding: 2px;
+    
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -76,9 +93,7 @@ background-color: green;
 
 }
 
-.AudiosZodiacSigns{
-    
-}
+
 
 
 .celebIdmgBox{
@@ -86,7 +101,7 @@ background-color: green;
     height: 20px; ;
 }
 
-a{  pading: 15px;
+a{  
     display: flex;
     display: grid;
     height: 25px;
@@ -117,6 +132,10 @@ iframe{
     margin: auto;
   
    
+}
+
+ul audio {
+    display: flex;
 }
 
 

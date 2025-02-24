@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 const buttonKinyarwandabible1 = document.getElementById("btnKinyarwandabible1");
 const audiosKinyarwandabible1 = document.getElementById("audiosKinyarwandabible1");
 
@@ -10,6 +20,10 @@ buttonKinyarwandabible1.addEventListener("click", (event) => {
         audiosKinyarwandabible1.style.display ="none";
     }
 });
+
+function callAlert(msg){
+    alert(msg)
+}
 
 
 const buttonKinyarwandabible2 = document.getElementById("btnKinyarwandabible2");

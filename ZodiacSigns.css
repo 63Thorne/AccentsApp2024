@@ -31,6 +31,22 @@ button{
 }
 
 
+.Translation{
+    border-radius: 15px;
+    width: 80px;
+    height: 45px;
+    padding: 10px;
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    
+
+}
+
+
+
 .NameBlock{
     padding: 2px;
     display: flex;
