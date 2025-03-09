@@ -134,6 +134,13 @@ iframe{
    
 }
 
+blockquote{
+    display: flex;
+    margin: auto;
+}
+
+
+
 ul audio {
     display: flex;
 }
