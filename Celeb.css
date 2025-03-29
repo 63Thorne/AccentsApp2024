@@ -112,6 +112,11 @@ button:active {
     padding: 15px 25px;
     text-align: center;
     width: 380px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    translate: -50% -50%;
+   
 
 }
 
@@ -149,6 +154,7 @@ button:active {
 }
 
 ul {
+    display: flex;
     margin: auto;
     place-items: center ;
 
