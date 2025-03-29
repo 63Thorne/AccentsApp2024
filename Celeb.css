@@ -148,9 +148,19 @@ button:active {
     display: flex;
 }
 
+ul {
+    margin: auto;
+    place-items: center ;
+
+
+}
+
 
 ul audio {
     display: flex;
+    margin: auto;
+    place-items: center ;
+
 }
 
 
