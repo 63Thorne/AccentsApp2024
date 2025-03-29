@@ -1,40 +1,38 @@
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+// const openModalButtons = document.querySelectorAll('[data-modal-target]')
+// const closeModalButtons = document.querySelectorAll('[data-close-button]')
+// const overlay = document.getElementById('overlay')
 
-openModalButtons.forEach(button => {
-    button.addEventListener('click',() => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-
-    
-    })
-} )
-
-closeModalButtons.forEach(button => {
-    button.addEventListener('click',() => {
-        const modal = button.closest('.modal')
-        closeModal(modal)
+// openModalButtons.forEach(button => {
+//     button.addEventListener('click',() => {
+//         const modal = document.querySelector(button.dataset.modalTarget)
+//         openModal(modal)
 
     
-    })
-} )
+//     })
+// } )
 
-function openModal(modal) {
-    if (modal == null) return
-    modal.classList.add('active')
-    overlay.classList.add('active')
-}
+// closeModalButtons.forEach(button => {
+//     button.addEventListener('click',() => {
+//         const modal = button.closest('.modal')
+//         closeModal(modal)
 
-function closeModal(modal) {
-    if (modal == null) return
-    modal.classList.remove('active')
-    overlay.classList.remove('active')
+    
+//     })
+// } )
+
+// function openModal(modal) {
+//     if (modal == null) return
+//     modal.classList.add('active')
+//     overlay.classList.add('active')
+// }
+
+// function closeModal(modal) {
+//     if (modal == null) return
+//     modal.classList.remove('active')
+//     overlay.classList.remove('active')
 
 
-}
-
-
+// }
 
 
 const buttonCeleb1 = document.getElementById("btnCeleb1");
@@ -49,6 +47,7 @@ buttonCeleb1.addEventListener("click", (event) => {
         audiosCeleb1.style.display ="none";
     }
 });
+
 
 const buttonCeleb2 = document.getElementById("btnCeleb2");
 const audiosCeleb2 = document.getElementById("audiosCeleb2");
@@ -77,7 +76,6 @@ buttonCeleb3.addEventListener("click", (event) => {
     }
 });
 
-
 const buttonCeleb4 = document.getElementById("btnCeleb4");
 const audiosCeleb4 = document.getElementById("audiosCeleb4");
 
@@ -104,6 +102,79 @@ buttonCeleb5.addEventListener("click", (event) => {
         audiosCeleb5.style.display ="none";
     }
 });
+
+
+
+const openBtn1 = document.getElementById("openModall1");
+const closeBtn1 = document.getElementById('closeModall1');
+const modall1 = document.getElementById("modall1");
+
+openBtn1.addEventListener("click", () => {
+    modall1.classList.add("open");
+});
+
+closeBtn1.addEventListener("click", () => {
+    modall1.classList.remove("open")
+})
+
+
+
+const openBtn2 = document.getElementById("openModall2");
+const closeBtn2 = document.getElementById('closeModall2');
+const modall2 = document.getElementById("modall2");
+
+openBtn2.addEventListener("click", () => {
+    modall2.classList.add("open");
+});
+
+closeBtn2.addEventListener("click", () => {
+    modall2.classList.remove("open")
+})
+
+const openBtn3 = document.getElementById("openModall3");
+const closeBtn3 = document.getElementById('closeModall3');
+const modall3 = document.getElementById("modall3");
+
+openBtn3.addEventListener("click", () => {
+    modall3.classList.add("open");
+});
+
+closeBtn3.addEventListener("click", () => {
+    modall3.classList.remove("open")
+})
+
+const openBtn4 = document.getElementById("openModall4");
+const closeBtn4 = document.getElementById('closeModall4');
+const modall4 = document.getElementById("modall4");
+
+openBtn4.addEventListener("click", () => {
+    modall4.classList.add("open");
+});
+
+closeBtn4.addEventListener("click", () => {
+    modall4.classList.remove("open")
+})
+
+const openBtn5 = document.getElementById("openModall5");
+const closeBtn5 = document.getElementById('closeModall5');
+const modall5 = document.getElementById("modall5");
+
+openBtn5.addEventListener("click", () => {
+    modall5.classList.add("open");
+});
+
+closeBtn4.addEventListener("click", () => {
+    modall4.classList.remove("open")
+})
+
+
+
+
+
+
+
+
+
 
 const buttonCeleb6 = document.getElementById("btnCeleb6");
 const audiosCeleb6 = document.getElementById("audiosCeleb6");

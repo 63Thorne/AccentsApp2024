@@ -24,9 +24,7 @@ h1{
     
 }
 
-.AudiosZodiacSigns{
 
-}
 
 .AudiosCeleb{
     padding: 15px;
@@ -58,7 +56,7 @@ button{
 
 .Translation{
     border-radius: 15px;
-    width: 50px;
+    width: 80px;
     height: 45px;
     
     background-color: brown;
@@ -69,67 +67,51 @@ button{
 
 }
 
-.modal{
-    position: fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, 50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: whitesmoke;
-    width: 500px;
-    max-width: 80%;
+/* the 2nd method for pop up message by Florin Pop YT channel */
+button:active {
+    opacity:0.8
 }
 
-.modal.active{
-    transform: translate(-50%, 50%) scale(1);
-}
-
-.modal-header{
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-}
-
-.modal-header .title{
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.modal-header .close-button {
-    color: black;
-    cursor:pointer;
-    border:none;
-    outline:none;
-    background:none;
-    font-size: 1.25rem;
-    font-weight: bold;
-
-}
-
-.modal-body{
-    padding: 10px 15px;
-}
-
-#overlay{
-    position: fixed;
+.modall{
+    background-color: rgba(0, 0, 0, .3);
     opacity: 0;
-    transition: 200ms ease-in-out;
+    position: fixed;
     top:0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#overlay.active{
+.modall.open {
     opacity: 1;
-    pointer-events: all;
+    z-index: 999;
+}
+
+.modal-inner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+
+}
+
+.modal-inner h2 {
+    margin: 0;
+}
+
+.modal-inner p{
+    line-height: 24px;
+    margin: 10px 0;
+
 
 }
 
