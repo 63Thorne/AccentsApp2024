@@ -4,8 +4,17 @@ body{
     background-image: url(Images/CelebImages/image\ background.jpeg);
 }
 
+.ListOFNames{
+    position: relative;
+}
+
 #audiosZodiac2{
     display:inline-flex;
+}
+
+audio{
+    width: 200px;
+    
 }
 
 h1{
@@ -32,6 +41,8 @@ h1{
     place-items: center ;
     
     
+    
+    
 }
 
 .AudiosBibleBookNames {
@@ -44,7 +55,7 @@ h1{
 
 button{
     border-radius: 15px;
-    width: 400px;
+    width: 320px;
     height: 35px;
     padding: 10px;
     background-color: blue;
@@ -123,6 +134,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;  
+   
 }
 
 .dropdownAudios{
