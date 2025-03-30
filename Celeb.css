@@ -2,10 +2,11 @@
 body{
     margin: auto;
     background-image: url(Images/CelebImages/image\ background.jpeg);
+    background-size: 250px 250px ;
 }
 
 .ListOFNames{
-    position: relative;
+    
 }
 
 #audiosZodiac2{
