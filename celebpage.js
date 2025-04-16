@@ -286,4 +286,208 @@ buttonCeleb21.addEventListener("click", (event) => {
     } else {
         audiosCeleb21.style.display ="none";
     }
-}); 
+});
+const buttonCeleb22 = document.getElementById("btnCeleb22");
+const audiosCeleb22 = document.getElementById("audiosCeleb22");
+
+audiosCeleb22.style.display ="none";
+
+buttonCeleb22.addEventListener("click", (event) => {
+    if(audiosCeleb22.style.display == "none"){
+        audiosCeleb22.style.display ="block";
+    } else {
+        audiosCeleb22.style.display ="none";
+    }
+});
+const buttonCeleb23 = document.getElementById("btnCeleb23");
+const audiosCeleb23 = document.getElementById("audiosCeleb23");
+
+audiosCeleb23.style.display ="none";
+
+buttonCeleb23.addEventListener("click", (event) => {
+    if(audiosCeleb23.style.display == "none"){
+        audiosCeleb23.style.display ="block";
+    } else {
+        audiosCeleb23.style.display ="none";
+    }
+});
+const buttonCeleb24 = document.getElementById("btnCeleb24");
+const audiosCeleb24 = document.getElementById("audiosCeleb24");
+
+audiosCeleb24.style.display ="none";
+
+buttonCeleb24.addEventListener("click", (event) => {
+    if(audiosCeleb24.style.display == "none"){
+        audiosCeleb24.style.display ="block";
+    } else {
+        audiosCeleb24.style.display ="none";
+    }
+});
+const buttonCeleb25 = document.getElementById("btnCeleb25");
+const audiosCeleb25 = document.getElementById("audiosCeleb25");
+
+audiosCeleb25.style.display ="none";
+
+buttonCeleb25.addEventListener("click", (event) => {
+    if(audiosCeleb25.style.display == "none"){
+        audiosCeleb25.style.display ="block";
+    } else {
+        audiosCeleb25.style.display ="none";
+    }
+});
+const buttonCeleb26 = document.getElementById("btnCeleb26");
+const audiosCeleb26 = document.getElementById("audiosCeleb26");
+
+audiosCeleb26.style.display ="none";
+
+buttonCeleb26.addEventListener("click", (event) => {
+    if(audiosCeleb26.style.display == "none"){
+        audiosCeleb26.style.display ="block";
+    } else {
+        audiosCeleb26.style.display ="none";
+    }
+});
+const buttonCeleb27 = document.getElementById("btnCeleb27");
+const audiosCeleb27 = document.getElementById("audiosCeleb27");
+
+audiosCeleb27.style.display ="none";
+
+buttonCeleb27.addEventListener("click", (event) => {
+    if(audiosCeleb27.style.display == "none"){
+        audiosCeleb27.style.display ="block";
+    } else {
+        audiosCeleb27.style.display ="none";
+    }
+});
+const buttonCeleb28 = document.getElementById("btnCeleb28");
+const audiosCeleb28= document.getElementById("audiosCeleb28");
+
+audiosCeleb28.style.display ="none";
+
+buttonCeleb28.addEventListener("click", (event) => {
+    if(audiosCeleb28.style.display == "none"){
+        audiosCeleb28.style.display ="block";
+    } else {
+        audiosCeleb28.style.display ="none";
+    }
+});
+const buttonCeleb29 = document.getElementById("btnCeleb29");
+const audiosCeleb29 = document.getElementById("audiosCeleb29");
+
+audiosCeleb29.style.display ="none";
+
+buttonCeleb29.addEventListener("click", (event) => {
+    if(audiosCeleb29.style.display == "none"){
+        audiosCeleb29.style.display ="block";
+    } else {
+        audiosCeleb29.style.display ="none";
+    }
+});
+const buttonCeleb30 = document.getElementById("btnCeleb30");
+const audiosCeleb30 = document.getElementById("audiosCeleb30");
+
+audiosCeleb30.style.display ="none";
+
+buttonCeleb30.addEventListener("click", (event) => {
+    if(audiosCeleb30.style.display == "none"){
+        audiosCeleb30.style.display ="block";
+    } else {
+        audiosCeleb30.style.display ="none";
+    }
+});
+const buttonCeleb31 = document.getElementById("btnCeleb31");
+const audiosCeleb31 = document.getElementById("audiosCeleb31");
+
+audiosCeleb31.style.display ="none";
+
+buttonCeleb31.addEventListener("click", (event) => {
+    if(audiosCeleb31.style.display == "none"){
+        audiosCeleb31.style.display ="block";
+    } else {
+        audiosCeleb31.style.display ="none";
+    }
+});
+const buttonCeleb32 = document.getElementById("btnCeleb32");
+const audiosCeleb32 = document.getElementById("audiosCeleb32");
+
+audiosCeleb32.style.display ="none";
+
+buttonCeleb32.addEventListener("click", (event) => {
+    if(audiosCeleb32.style.display == "none"){
+        audiosCeleb32.style.display ="block";
+    } else {
+        audiosCeleb32.style.display ="none";
+    }
+});
+const buttonCeleb33 = document.getElementById("btnCeleb33");
+const audiosCeleb33 = document.getElementById("audiosCeleb33");
+
+audiosCeleb33.style.display ="none";
+
+buttonCeleb33.addEventListener("click", (event) => {
+    if(audiosCeleb33.style.display == "none"){
+        audiosCeleb33.style.display ="block";
+    } else {
+        audiosCeleb33.style.display ="none";
+    }
+});
+const buttonCeleb34 = document.getElementById("btnCeleb34");
+const audiosCeleb34 = document.getElementById("audiosCeleb34");
+
+audiosCeleb34.style.display ="none";
+
+buttonCeleb34.addEventListener("click", (event) => {
+    if(audiosCeleb34.style.display == "none"){
+        audiosCeleb34.style.display ="block";
+    } else {
+        audiosCeleb34.style.display ="none";
+    }
+});
+const buttonCeleb35 = document.getElementById("btnCeleb35");
+const audiosCeleb35 = document.getElementById("audiosCeleb35");
+
+audiosCeleb35.style.display ="none";
+
+buttonCeleb35.addEventListener("click", (event) => {
+    if(audiosCeleb35.style.display == "none"){
+        audiosCeleb35.style.display ="block";
+    } else {
+        audiosCeleb35.style.display ="none";
+    }
+});
+const buttonCeleb36 = document.getElementById("btnCeleb36");
+const audiosCeleb36 = document.getElementById("audiosCeleb36");
+
+audiosCeleb36.style.display ="none";
+
+buttonCeleb36.addEventListener("click", (event) => {
+    if(audiosCeleb36.style.display == "none"){
+        audiosCeleb36.style.display ="block";
+    } else {
+        audiosCeleb36.style.display ="none";
+    }
+});
+const buttonCeleb37 = document.getElementById("btnCeleb37");
+const audiosCeleb37 = document.getElementById("audiosCeleb37");
+
+audiosCeleb37.style.display ="none";
+
+buttonCeleb37.addEventListener("click", (event) => {
+    if(audiosCeleb37.style.display == "none"){
+        audiosCeleb37.style.display ="block";
+    } else {
+        audiosCeleb37.style.display ="none";
+    }
+});
+const buttonCeleb38 = document.getElementById("btnCeleb38");
+const audiosCeleb38 = document.getElementById("audiosCeleb38");
+
+audiosCeleb38.style.display ="none";
+
+buttonCeleb38.addEventListener("click", (event) => {
+    if(audiosCeleb38.style.display == "none"){
+        audiosCeleb38.style.display ="block";
+    } else {
+        audiosCeleb38.style.display ="none";
+    }
+});
