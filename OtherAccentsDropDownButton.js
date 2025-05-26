@@ -25,7 +25,7 @@ const dropdownMenu2= document.querySelector(".dropdown__menu2");
 dropdownBtn2.addEventListener('click', ()=> {
 
 dropdownMenu2.classList.toggle("hide2");
-
+oip
 });
 
 // Drop down click events 
