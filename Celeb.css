@@ -8,6 +8,10 @@ body{
     
 }
 
+.container{
+    
+}
+
 #audiosZodiac2{
     display:inline-flex;
 }
@@ -21,7 +25,7 @@ h1{
     color:white;
     font-weight: bold;
     text-shadow: blue;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Lucida Sans' ;
     align-items: center;
@@ -47,6 +51,11 @@ h1{
 .QuestionAnswer{
     display: flex;
 }
+
+.QuestionAnswerText{
+    border: 2px;
+    border-color: blueviolet;
+}
 .AudiosBibleBookNames {
     padding: 15px;
     display: grid;
@@ -57,7 +66,7 @@ h1{
 
 button{
     border-radius: 15px;
-    width: 320px;
+    width: 200px;
     height: 35px;
     padding: 10px;
     background-color: blue;
@@ -184,6 +193,10 @@ h3
     color: white;
 }
 
+h2{
+    color: white;
+
+}
 
 .dropdown__button, .dropdown__button2,  .dropdown__button3, .dropdown__button4 , .dropdown__button5,  .dropdown__button6, .dropdown__button7,
 .dropdown__button8,  .dropdown__button9,  .dropdown__button10,  .dropdown__button11,  .dropdown__button12,  .dropdown__button13,  .dropdown__button14,
