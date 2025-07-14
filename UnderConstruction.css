@@ -1,0 +1,12 @@
+
+body{
+    margin: auto;
+    background-image: url(Images/CelebImages/image\ background.jpeg);
+}
+
+h1{
+    margin-left: 20%;
+    margin-top: 20%;
+    color: bisque;
+    font-size: 50px;
+}
