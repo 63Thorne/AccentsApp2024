@@ -242,6 +242,29 @@ h2{
    border: solid 1px grey;
    width: 500px;}
 
+   .search-wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-wapper label {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.search-wapper input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.search
+{
+    display: none;
+}
+
 
 
 
