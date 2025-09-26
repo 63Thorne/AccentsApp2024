@@ -157,5 +157,14 @@ h3
     display: none;
 }
 
+.hide {
+    display: none;
+}
+
+.InvisableNameForSearchBarToWork{
+    display: none;
+}
+
+
 
 
