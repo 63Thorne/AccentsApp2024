@@ -1,0 +1,204 @@
+h1{
+    color:white;
+    font-weight: bold;
+    text-shadow: blue;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans' ;
+}
+
+body{ 
+   background-image: url(Images/CelebImages/image\ background.jpeg);
+}
+
+.Audios{
+    padding: 15px;
+
+    
+    margin: auto;
+    
+    
+}
+
+.AudiosCeleb{
+    padding: 15px;
+    
+
+    
+}
+
+img{
+    width: 64px;
+    height: 53px;
+}
+
+button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 15px;
+    place-content: ce;
+    margin: auto;
+}
+
+
+
+.MainButton{
+    width: 100%;
+    
+}
+
+.ButtonBundle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 0px;
+    padding:10px;
+
+    
+
+}
+.ButtonCell{
+    position:relative;
+     justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    width: 190px;
+
+
+}
+
+
+.NameBlock{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  
+
+    
+    
+
+}
+
+.Culture{
+    display: flex;
+}
+
+.dropdownAudios{
+
+    display: flex;
+
+
+}
+
+
+ul audio {
+    display: flex;
+
+}
+
+.celebImgBox{
+    width: 20px ;
+    height: 20px; ;
+}
+
+a{  
+    padding:15px;
+    padding-left: 0px;
+    padding-left: 15px;
+
+    height: 45px;
+    width: auto;
+    background: blue;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    place-items: centre ;
+ }
+
+
+
+h3
+{
+    color: white;
+}
+.search-wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-wapper label {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.search-wapper input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.search
+{
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.InvisableNameForSearchBarToWork{
+    display: none;
+}
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.menu.show {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
